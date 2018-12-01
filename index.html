@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .imgRows {
+            list-style: none;
+            width: 100%;
+        }
+
+        .imgRows li {
+            display: block;
+            float: left;
+            width: 33%;
+        }
+
+        .imgsItem {
+            width: 100%;
+            margin: 0;
+        }
+
+        .imgsItem img {
+            width: 100%;
+            height: 230px;
+            margin: 0;
+        }
+
+       @media screen and (max-width: 500px) {
+            .imgRows li {
+                clear:both;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+
+        <section>
+            <h1>Minhas imagens</h1>
+        </section>
+        <section>
+            <ul class="imgRows">
+                <li>
+                    <figure class="imgsItem">
+                        <img src="img/112239.jpg">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="imgsItem">
+                        <img src="img/876898.jpg">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="imgsItem">
+                        <img src="img/Grande-3-x5-p-s-bandeira-nacional-de-ISRAEL-estrela-judaica-Magen-David-pa-s-bandeira.jpg">
+                    </figure>
+                </li>
+            </ul>
+            <ul class="imgRows">
+                <li>
+                    <figure class="imgsItem">
+                        <img src="img/fundo.png">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="imgsItem">
+                        <img src="img/imagens-mais-novas.jpg">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="imgsItem">
+                        <img src="img/Edição-e-tratamento-de-imagens.png">
+                    </figure>
+                </li>
+            </ul>
+        </section>
+    </div>
+
+
+</body>
+
+</html>
