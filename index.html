@@ -2,92 +2,95 @@
 <html>
 
 <head>
-    <title></title>
-
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        .imgRows {
-            list-style: none;
-            width: 100%;
-        }
-
-        .imgRows li {
-            display: block;
-            float: left;
-            width: 33%;
-        }
-
-        .imgsItem {
-            width: 100%;
-            margin: 0;
-        }
-
-        .imgsItem img {
-            width: 100%;
-            height: 230px;
-            margin: 0;
-        }
-
-       @media screen and (max-width: 500px) {
-            .imgRows li {
-                clear:both;
-                width: 100%;
-            }
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" type="text/css">
 </head>
 
 <body>
 
-    <div>
+    <header>
+        <div class="informations">
 
-        <section>
-            <h1>Minhas imagens</h1>
-        </section>
-        <section>
-            <ul class="imgRows">
-                <li>
-                    <figure class="imgsItem">
-                        <img src="img/112239.jpg">
-                    </figure>
-                </li>
-                <li>
-                    <figure class="imgsItem">
-                        <img src="img/876898.jpg">
-                    </figure>
-                </li>
-                <li>
-                    <figure class="imgsItem">
-                        <img src="img/Grande-3-x5-p-s-bandeira-nacional-de-ISRAEL-estrela-judaica-Magen-David-pa-s-bandeira.jpg">
-                    </figure>
-                </li>
-            </ul>
-            <ul class="imgRows">
-                <li>
-                    <figure class="imgsItem">
-                        <img src="img/fundo.png">
-                    </figure>
-                </li>
-                <li>
-                    <figure class="imgsItem">
-                        <img src="img/imagens-mais-novas.jpg">
-                    </figure>
-                </li>
-                <li>
-                    <figure class="imgsItem">
-                        <img src="img/Edição-e-tratamento-de-imagens.png">
-                    </figure>
-                </li>
-            </ul>
-        </section>
+            <a class="btn btn-full" href="#">this is the best application</a>
+            <a class="btn btn-ghost" href="#">See more</a>
+
+        </div>
+    </header>
+
+    <div class="header">
+        <h1>Chania</h1>
     </div>
 
+    <div class="row">
 
+        <div class="col-3 menu">
+            <ul>
+                <li>The Flight</li>
+                <li>The City</li>
+                <li>The Island</li>
+                <li>The Food</li>
+            </ul>
+        </div>
+
+        <div class="col-6">
+            <h1>The City</h1>
+            <p>Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts,
+                the old town and the modern city.</p>
+        </div>
+
+        <div class="col-3 right">
+            <div class="aside">
+                <h2>What?</h2>
+                <p>Chania is a city on the island of Crete.</p>
+                <h2>Where?</h2>
+                <p>Crete is a Greek island in the Mediterranean Sea.</p>
+                <h2>How?</h2>
+                <p>You can reach Chania airport from all over Europe.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>Resize the browser window to see how the content respond to the resizing.</p>
+    </div>
+
+     <section>
+            <ul class="imgRows">
+                <li>
+                    <figure class="imgsItem">
+                        <img src="imgs/112239.jpg">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="imgsItem">
+                        <img src="imgs/876898.jpg">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="imgsItem">
+                        <img src="imgs/Grande-3-x5-p-s-bandeira-nacional-de-ISRAEL-estrela-judaica-Magen-David-pa-s-bandeira.jpg">
+                    </figure>
+                </li>
+            </ul>
+            <ul class="imgRows">
+                <li>
+                    <figure class="imgsItem">
+                        <img src="imgs/fundo.png">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="imgsItem">
+                        <img src="imgs/imagens-mais-novas.jpg">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="imgsItem">
+                        <img src="imgs/Edição-e-tratamento-de-imagens.png">
+                    </figure>
+                </li>
+            </ul>
+        </section>
 </body>
 
 </html>
